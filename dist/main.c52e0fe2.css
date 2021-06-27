@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Tenor+Sans&display=swap');
 body  {
     background-color: #E6E6E6;
 }
@@ -61,6 +61,29 @@ p {
   stroke-dasharray: 90 207;
   stroke-dashoffset: -134;
   stroke-width: 6;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image {
+    width: 50%; 
+    height: 75%;
+    border-radius: 45%;
+    margin-top: 50px;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+h2 {
+    color: black;
+    font-family: 'Marcellus', serif;
+    font-size: 96px;
+    z-index: 99;
+    position: absolute;   
+    text-align: center;
 }
 
 /*# sourceMappingURL=/main.c52e0fe2.css.map */
